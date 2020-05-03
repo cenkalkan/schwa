@@ -129,7 +129,7 @@ while game == "y":
 
         #win message
         if playing == False:
-            print("------------------")
+            print("*************")
             print("Game Over")
             statistics()
             if game_wins==game_losses:
@@ -138,6 +138,7 @@ while game == "y":
                 print("You win. You destroyed the enemy fleet. ")
             elif win_messsage==0:
                 print("You lose. The enemy has sunk all of your ships. ")
+                print(" ")
             game = input("Do you want to play battleships? y/n ")
             if game == "y":
                 stats= input("Do you want to reset your wins and losses statistics? y/n ")
